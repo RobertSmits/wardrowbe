@@ -157,6 +157,7 @@ export const CLOTHING_TYPES = [
   { label: 'Skirt', value: 'skirt' },
   { label: 'Dress', value: 'dress' },
   { label: 'Jumpsuit', value: 'jumpsuit' },
+  { label: 'Overalls', value: 'overalls' },
   { label: 'Jacket', value: 'jacket' },
   { label: 'Blazer', value: 'blazer' },
   { label: 'Coat', value: 'coat' },

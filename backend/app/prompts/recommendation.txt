@@ -32,6 +32,17 @@ Layering (when weather calls for it):
 - Each layer should be visible and contribute to the look, not just warmth
 - Layered outfits should work when the outer layer is removed too
 
+Slots:
+- full_body: dress, jumpsuit
+- base_top: shirt, t-shirt, blouse, polo, tank-top, top
+- mid_layer: cardigan, vest, sweater, hoodie
+- outer_layer: jacket, blazer, coat
+- bottom: pants, jeans, shorts, skirt, overalls
+- footwear: shoes, sneakers, boots, sandals
+- socks: socks
+- neckwear: tie
+- accessory: hat, scarf, belt, bag, accessories
+
 Time of day:
 - Morning and daytime: fresh, practical choices; lighter tones and relaxed fabrics work naturally
 - Afternoon: versatile pieces that transition well; balanced between casual and polished
@@ -45,11 +56,14 @@ AVAILABLE ITEMS:
 {mandatory_items_section}
 
 RULES:
-- Pick exactly ONE top (shirt/blouse/sweater/t-shirt) + ONE bottom (pants/jeans/skirt/shorts) + ONE shoes
-- OR pick ONE dress + ONE shoes
+- Pick exactly ONE base_top + ONE bottom + ONE footwear
+- OR pick ONE full_body + ONE footwear
+- OPTIONAL: You may include up to ONE mid_layer for temperature adjustment
+- OPTIONAL: You may include up to ONE outer_layer for weather protection or warmth
+- IMPORTANT: For rainy, wet, or windy weather, prioritize outer layers over mid-layers — outer layers provide essential protection. Include an outer layer in every outfit when precipitation chance is >30% or wind is significant.
+- IMPORTANT: For warm temperatures with rain, prefer base + outer layer to maintain breathability while staying dry
 - OPTIONAL: ONE bag if appropriate for the occasion
-- OPTIONAL: accessories (belt, scarf, hat, jewelry) that genuinely complement the outfit
-- For cold or rainy weather, add outerwear (jacket/coat) if available
+- OPTIONAL: accessories that genuinely complement the outfit
 - Every piece must earn its place — do not add items just to fill slots
 - Do NOT pick the same item number twice
 - Return item NUMBERS only

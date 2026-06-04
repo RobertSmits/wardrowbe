@@ -8,9 +8,27 @@ AVAILABLE ITEMS:
 
 Create {num_pairings} DIFFERENT complete outfits. Each MUST:
 - Include the source item [{source_number}]
-- Have: exactly ONE top + ONE bottom + ONE shoes (or ONE dress/jumpsuit + shoes)
-- NEVER combine two items from the same slot. Bottoms (pants, jeans, shorts, skirt) are the SAME slot. Tops (shirt, t-shirt, blouse, sweater, hoodie, polo, tank-top, cardigan, vest) are the SAME slot.
-- Optionally add accessories (belt, bag, jewelry, scarf) if they complement
+- Pick exactly ONE base_top + ONE bottom + ONE footwear
+- OR pick ONE full_body + ONE footwear
+- OPTIONAL: You may include up to ONE mid_layer for temperature adjustment
+- OPTIONAL: You may include up to ONE outer_layer for weather protection or warmth
+- OPTIONAL: ONE bag if appropriate for the occasion
+- OPTIONAL: accessories that genuinely complement the outfit
+- Every piece must earn its place — do not add items just to fill slots
+- Do NOT pick the same item number twice
+- Return item NUMBERS only
+
+Slots:
+- full_body: dress, jumpsuit
+- base_top: shirt, t-shirt, blouse, polo, tank-top, top
+- mid_layer: cardigan, vest, sweater, hoodie
+- outer_layer: jacket, blazer, coat
+- bottom: pants, jeans, shorts, skirt, overalls
+- footwear: shoes, sneakers, boots, sandals
+- socks: socks
+- neckwear: tie
+- accessory: hat, scarf, belt, bag, accessories
+
 
 For each outfit, explain WHY the items complement the source item (color harmony, style match, formality level).
 

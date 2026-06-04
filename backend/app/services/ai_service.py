@@ -76,6 +76,7 @@ VALID_TYPES = {
     "accessories",
     "top",
     "jumpsuit",
+    "overalls",
     "socks",
     "tie",
 }
